@@ -271,7 +271,7 @@ mod test {
     #[tokio::test]
     async fn test_sol_usdc_swap() {
         let payer =
-            Keypair::read_from_file("/Users/muhdsyahrulnizam/.config/solana/id.json").unwrap();
+            Keypair::read_from_file("/Users/z/.config/solana/id.json").unwrap();
         let client = Arc::new(RpcClient::new_with_commitment(
             "https://api.mainnet-beta.solana.com".to_string(),
             CommitmentConfig {
